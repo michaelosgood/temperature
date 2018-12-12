@@ -1,0 +1,22 @@
+{
+  "name": "temperature",
+  "version": "1.0.0",
+  "description": "Mocha Test Framework Example",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelosgood/temperature.git"
+  },
+  "author": "Michael Osgood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelosgood/temperature/issues"
+  },
+  "homepage": "https://github.com/michaelosgood/temperature#readme"
+}
