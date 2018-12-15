@@ -10,4 +10,9 @@ convert.fToC = function(fahrenheit) {
   return (fahrenheit - 32) * 5 / 9;
 }
 
+convert.ctoK = function(kelvin) {
+  if(!Number.isInteger(kelvin)) return undefined;
+  return kelvin + 273.15;
+}
+
 module.exports = convert;

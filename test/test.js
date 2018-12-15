@@ -25,4 +25,9 @@ describe('Temperature Conversion', function() {
       assert.equal(undefined, convert.fToC('a'));
     });
   });
+  describe('ctoK', function() {
+    it('should convert 0 celsius to 273.15 kelvin', function() {
+      assert.equal(273.15, convert.ctoK(0));
+    });
+  });
 });
